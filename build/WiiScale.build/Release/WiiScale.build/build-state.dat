@@ -1,0 +1,819 @@
+TWiiScale
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Info.plist /Volumes/SHARED/trough/wiiscale/Info.plist
+cCpResource WiiScale.icns build/Release/WiiScale.app/Contents/Resources/WiiScale.icns
+cCompileXIB /Volumes/SHARED/trough/wiiscale/English.lproj/MainMenu.xib
+cCopyStringsFile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource LICENSE build/Release/WiiScale.app/Contents/Resources/LICENSE
+cCopyPlistFile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/TextStrings.plist TextStrings.plist
+cProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.pch WiiScale_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.pch WiiScale_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.o /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.o /Volumes/SHARED/trough/wiiscale/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.o /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.o /Volumes/SHARED/trough/wiiscale/AppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.o /Volumes/SHARED/trough/wiiscale/PrefsController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.o /Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.o /Volumes/SHARED/trough/wiiscale/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.o /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.o /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.o /Volumes/SHARED/trough/wiiscale/AppController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.o /Volumes/SHARED/trough/wiiscale/PrefsController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.o /Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale normal x86_64
+cLd /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale normal i386
+cCreateUniversalBinary /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale normal x86_64\ i386
+cGenerateDSYMFile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app.dSYM /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale
+cTouch /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000052822B6200000000000000AA
+t1384262498
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526C8246000000000000044C
+t1382842950
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526C824600000000000001DB
+t1382842950
+s475
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005207E4400000000000006730
+t1376248896
+s26416
+
+N/System/Library/Frameworks/IOBluetooth.framework/IOBluetooth
+c000000005207E44B000000000025C5F0
+t1376248907
+s2475504
+
+N/Volumes/SHARED/trough/wiiscale/AppController.m
+c000000005302AC8800000000000021E6
+t1392684168
+s8678
+
+N/Volumes/SHARED/trough/wiiscale/English.lproj/InfoPlist.strings
+c000000005302AC88000000000000005C
+t1392684168
+s92
+
+N/Volumes/SHARED/trough/wiiscale/English.lproj/MainMenu.xib
+c000000005302AC880000000000019532
+t1392684168
+s103730
+
+N/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m
+c000000005302AC8800000000000003B5
+t1392684168
+s949
+
+N/Volumes/SHARED/trough/wiiscale/Info.plist
+c000000005302AC880000000000000360
+t1392684168
+s864
+
+N/Volumes/SHARED/trough/wiiscale/LICENSE
+c000000005302AC88000000000000894B
+t1392684168
+s35147
+
+N/Volumes/SHARED/trough/wiiscale/PrefsController.m
+c000000005302AC8800000000000003E1
+t1392684168
+s993
+
+N/Volumes/SHARED/trough/wiiscale/TextStrings.plist
+c000000005302AC8800000000000000F4
+t1392684168
+s244
+
+N/Volumes/SHARED/trough/wiiscale/WiiScale.icns
+c000000005302AC88000000000003F0AF
+t1392684168
+s258223
+
+N/Volumes/SHARED/trough/wiiscale/WiiScale_Prefix.pch
+c000000005302AC880000000000000093
+t1392684168
+s147
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app
+t1392684344
+s32768
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app.dSYM
+t2
+s0
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Info.plist
+t1392684344
+s1257
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale
+t1392684346
+s144748
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/PkgInfo
+t1392684344
+s8
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1392684344
+s92
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/English.lproj/MainMenu.nib
+t1392684344
+s20801
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/LICENSE
+t1392684344
+s35147
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/TextStrings.plist
+t1392684344
+s244
+
+N/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/WiiScale.icns
+t1392684344
+s258223
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.o
+t1392684346
+s67272
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.o
+t1392684346
+s22676
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.o
+t1392684346
+s24856
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.o
+t1392684346
+s67520
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.o
+t1392684346
+s28908
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale
+t1392684346
+s62828
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale.LinkFileList
+c000000005302AD38000000000000029D
+t1392684344
+s669
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.o
+t1392684346
+s2476
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.o
+t1392684346
+s87408
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.o
+t1392684346
+s27100
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.o
+t1392684346
+s30484
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.o
+t1392684346
+s102240
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.o
+t1392684346
+s37092
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale
+t1392684346
+s76076
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale.LinkFileList
+c000000005302AD3800000000000002A9
+t1392684344
+s681
+
+N/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.o
+t1392684346
+s2864
+
+N/Volumes/SHARED/trough/wiiscale/main.m
+c000000005302AC880000000000000101
+t1392684168
+s257
+
+N/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m
+c000000005302AC88000000000000C493
+t1392684168
+s50323
+
+N/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m
+c000000005302AC8800000000000014A7
+t1392684168
+s5287
+
+N/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.pch
+t1392684346
+s13680448
+
+N/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.pch
+t1392684346
+s14234356
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa9dca0b9e4b2b841^412ab9b9e4b2b841^---0#1#1#--18"Check dependencies36"4125D25F-3CEA-4809-98FE-A2654152306F-
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.o /Volumes/SHARED/trough/wiiscale/AppController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.754288
+e414377146.854094
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.o
+x/Volumes/SHARED/trough/wiiscale/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/AppController.m
+d/Volumes/SHARED/trough/wiiscale/AppController.h
+d/Volumes/SHARED/trough/wiiscale/PrefsController.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/Mii.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.h
+d/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.h
+o[1m/Volumes/SHARED/trough/wiiscale/AppController.m:129:143: [0m[0;1;35mwarning: [0m[1mformat string
+o      is not a string literal (potentially insecure) [-Wformat-security][0m
+o  ...otherButton:nil informativeTextWithFormat:[d objectForKey:@"Message"]] r...
+o[0;1;32m                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+o[0m1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Volumes/SHARED/trough/wiiscale/AppController.m188"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.o [1mAppController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2d27c1bae4b2b841^82a9dabae4b2b841^-372"[1m/Volumes/SHARED/trough/wiiscale/AppController.m:129:143: [0m[0;1;35mwarning: [0m[1mformat string      is not a string literal (potentially insecure) [-Wformat-security][0m  ...otherButton:nil informativeTextWithFormat:[d objectForKey:@"Message"]] r...[0;1;32m                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@63"file://localhost/Volumes/SHARED/trough/wiiscale/AppController.m0000000000000000^128#142#128#142#3994#0#19"Format String Issue1(3@63"file://localhost/Volumes/SHARED/trough/wiiscale/AppController.m0000000000000000^128#142#128#169#3994#26#-0#0#1#-19%DVTDocumentLocation4@63"file://localhost/Volumes/SHARED/trough/wiiscale/AppController.m0000000000000000^3091"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.o [1mAppController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/i386 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.dia -c /Volumes/SHARED/trough/wiiscale/AppController.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.o36"C38ABB75-93B8-41BF-824B-AE6D65A72136-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.o /Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.846033
+e414377146.885965
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.o
+x/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m
+d/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m194"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.o [1mFPLevelIndicator.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf7abd8bae4b2b841^abcee2bae4b2b841^---0#0#1#-19%DVTDocumentLocation2@66"file://localhost/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m0000000000000000^3109"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.o [1mFPLevelIndicator.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/i386 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.dia -c /Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.o36"78EB1467-5D7E-4F8E-91B7-D751A2A1C068-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.o /Volumes/SHARED/trough/wiiscale/PrefsController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.814732
+e414377146.860144
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.o
+x/Volumes/SHARED/trough/wiiscale/PrefsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/PrefsController.m
+d/Volumes/SHARED/trough/wiiscale/PrefsController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Volumes/SHARED/trough/wiiscale/PrefsController.m192"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.o [1mPrefsController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler40a3d0bae4b2b841^9832dcbae4b2b841^---0#0#1#-19%DVTDocumentLocation2@65"file://localhost/Volumes/SHARED/trough/wiiscale/PrefsController.m0000000000000000^3103"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.o [1mPrefsController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/i386 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.dia -c /Volumes/SHARED/trough/wiiscale/PrefsController.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.o36"9010127B-1F79-4B3F-81CB-556030591FEF-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.o /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.741250
+e414377146.928511
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.o
+x/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/Mii.h
+o[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:198:32: [0m[0;1;35mwarning: [0m[1m
+o      'getName' is deprecated: first deprecated in OS X 10.6
+o      [-Wdeprecated-declarations][0m
+o        _isBalanceBeam = [[_wiiDevice getName] hasPrefix:@"Nintendo RVL-WBC"];
+o[0;1;32m                                      ^
+o[0mIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:9:
+oIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h:12:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:436:1: [0m[0;1;30mnote: [0m
+o      method 'getName' declared here[0m
+o- (NSString *)getName DEPRECATED_IN_MAC_OS_X_VERSION_10_6_AND_LATER;
+o[0;1;32m^
+o[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:279:21: [0m[0;1;35mwarning: [0m[1m
+o      'getAddressString' is deprecated: first deprecated in OS X 10.7
+o      [-Wdeprecated-declarations][0m
+o        return [_wiiDevice getAddressString];
+o[0;1;32m                           ^
+o[0mIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:9:
+oIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h:12:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:477:1: [0m[0;1;30mnote: [0m
+o      method 'getAddressString' declared here[0m
+o- (NSString *)getAddressString DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER;
+o[0;1;32m^
+o[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:502:76: [0m[0;1;35mwarning: [0m[1m
+o      format specifies type 'int' but the argument has type 'size_t'
+o      (aka 'unsigned long') [-Wformat][0m
+o  ...Trying to write more than 16 bytes of data (length=%i)", length);
+o[0;1;32m                                                        ~~    ^~~~~~
+o[0m[0;32m                                                        %zu
+o[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:841:10: [0m[0;1;35mwarning: [0m[1m
+o      enumeration value 'WiiExpNotAttached' not handled in switch [-Wswitch][0m
+o        switch (expType) {
+o[0;1;32m                ^
+o[0m4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m199"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.o [1mwiiRemoteFramework/WiiRemote.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc3d5bdbae4b2b841^a2b2edbae4b2b841^-2400"[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:198:32: [0m[0;1;35mwarning: [0m[1m      'getName' is deprecated: first deprecated in OS X 10.6      [-Wdeprecated-declarations][0m        _isBalanceBeam = [[_wiiDevice getName] hasPrefix:@"Nintendo RVL-WBC"];[0;1;32m                                      ^[0mIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:9:In file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h:12:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:436:1: [0m[0;1;30mnote: [0m      method 'getName' declared here[0m- (NSString *)getName DEPRECATED_IN_MAC_OS_X_VERSION_10_6_AND_LATER;[0;1;32m^[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:279:21: [0m[0;1;35mwarning: [0m[1m      'getAddressString' is deprecated: first deprecated in OS X 10.7      [-Wdeprecated-declarations][0m        return [_wiiDevice getAddressString];[0;1;32m                           ^[0mIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:9:In file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h:12:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:477:1: [0m[0;1;30mnote: [0m      method 'getAddressString' declared here[0m- (NSString *)getAddressString DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER;[0;1;32m^[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:502:76: [0m[0;1;35mwarning: [0m[1m      format specifies type 'int' but the argument has type 'size_t'      (aka 'unsigned long') [-Wformat][0m  ...Trying to write more than 16 bytes of data (length=%i)", length);[0;1;32m                                                        ~~    ^~~~~~[0m[0;32m                                                        %zu[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:841:10: [0m[0;1;35mwarning: [0m[1m      enumeration value 'WiiExpNotAttached' not handled in switch [-Wswitch][0m        switch (expType) {[0;1;32m                ^[0m4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@54"'getName' is deprecated: first deprecated in OS X 10.6-414377146#18446744073709551615#0#1(2@30"Method 'getName' declared here-414377146#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@195"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h0000000000000000^435#0#435#0#24835#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^197#31#197#31#5403#0#12"Deprecations--2@63"'getAddressString' is deprecated: first deprecated in OS X 10.7-414377146#18446744073709551615#0#1(2@39"Method 'getAddressString' declared here-414377146#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@195"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h0000000000000000^476#0#476#0#26644#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^278#20#278#20#7381#0#12"Deprecations--2@84"Format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long')-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^501#75#501#75#13594#0#19"Format String Issue3(3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^501#75#501#81#13594#0#3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^501#69#501#71#13588#2#3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^501#69#501#71#13588#2#-2@59"Enumeration value 'WiiExpNotAttached' not handled in switch-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^840#9#840#9#24094#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^3105"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.o [1mwiiRemoteFramework/WiiRemote.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/i386 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.dia -c /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.o36"FD93B0F9-FA11-48FE-8455-5450CFB67A64-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.o /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.753990
+e414377146.813338
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.o
+x/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/Mii.h
+o[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m:23:8: [0m[0;1;35mwarning: [0m[1m
+o      implicit declaration of function 'IOBluetoothLocalDeviceAvailable' is
+o      invalid in C99 [-Wimplicit-function-declaration][0m
+o                if (!IOBluetoothLocalDeviceAvailable ())
+o[0;1;32m                     ^
+o[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m:38:38: [0m[0;1;35mwarning: [0m[1m
+o      'WiiRemoteDiscovery' may not respond to 'initWithDelegate:'[0m
+o        return [[[WiiRemoteDiscovery alloc] initWithDelegate:delegate] a...
+o[0;1;32m                 ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+o[0m2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m217"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.o [1mwiiRemoteFramework/WiiRemoteDiscovery.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercf15c1bae4b2b841^5436d0bae4b2b841^-682"[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m:23:8: [0m[0;1;35mwarning: [0m[1m      implicit declaration of function 'IOBluetoothLocalDeviceAvailable' is      invalid in C99 [-Wimplicit-function-declaration][0m                if (!IOBluetoothLocalDeviceAvailable ())[0;1;32m                     ^[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m:38:38: [0m[0;1;35mwarning: [0m[1m      'WiiRemoteDiscovery' may not respond to 'initWithDelegate:'[0m        return [[[WiiRemoteDiscovery alloc] initWithDelegate:delegate] a...[0;1;32m                 ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^[0m2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@84"Implicit declaration of function 'IOBluetoothLocalDeviceAvailable' is invalid in C99-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@87"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m0000000000000000^22#7#22#7#552#0#14"Semantic Issue--2@59"'WiiRemoteDiscovery' may not respond to 'initWithDelegate:'-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m0000000000000000^37#37#37#37#950#0#14"Semantic Issue1(3@87"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m0000000000000000^37#10#37#36#923#25#-0#0#1#-19%DVTDocumentLocation4@87"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m0000000000000000^3159"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.o [1mwiiRemoteFramework/WiiRemoteDiscovery.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/i386 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.dia -c /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.o36"D690AE5C-3A72-4AFB-A9A5-D5584EFD9B71-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.o /Volumes/SHARED/trough/wiiscale/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.707569
+e414377146.731460
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.o
+x/Volumes/SHARED/trough/wiiscale/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Volumes/SHARED/trough/wiiscale/main.m170"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.o [1mmain.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3a3bb5bae4b2b841^cbbcbdbae4b2b841^---0#0#1#-19%DVTDocumentLocation2@54"file://localhost/Volumes/SHARED/trough/wiiscale/main.m0000000000000000^3037"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.o [1mmain.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/i386 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.dia -c /Volumes/SHARED/trough/wiiscale/main.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.o36"4CFD4621-DE12-4363-9591-E79AE08487E7-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.o /Volumes/SHARED/trough/wiiscale/AppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.625255
+e414377146.753089
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.o
+x/Volumes/SHARED/trough/wiiscale/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/AppController.m
+d/Volumes/SHARED/trough/wiiscale/AppController.h
+d/Volumes/SHARED/trough/wiiscale/PrefsController.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/Mii.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.h
+d/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.h
+o[1m/Volumes/SHARED/trough/wiiscale/AppController.m:129:143: [0m[0;1;35mwarning: [0m[1mformat string
+o      is not a string literal (potentially insecure) [-Wformat-security][0m
+o  ...otherButton:nil informativeTextWithFormat:[d objectForKey:@"Message"]] r...
+o[0;1;32m                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+o[0m1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Volumes/SHARED/trough/wiiscale/AppController.m192"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.o [1mAppController.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler001fa0bae4b2b841^8fc7c0bae4b2b841^-372"[1m/Volumes/SHARED/trough/wiiscale/AppController.m:129:143: [0m[0;1;35mwarning: [0m[1mformat string      is not a string literal (potentially insecure) [-Wformat-security][0m  ...otherButton:nil informativeTextWithFormat:[d objectForKey:@"Message"]] r...[0;1;32m                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@63"file://localhost/Volumes/SHARED/trough/wiiscale/AppController.m0000000000000000^128#142#128#142#3994#0#19"Format String Issue1(3@63"file://localhost/Volumes/SHARED/trough/wiiscale/AppController.m0000000000000000^128#142#128#169#3994#26#-0#0#1#-19%DVTDocumentLocation4@63"file://localhost/Volumes/SHARED/trough/wiiscale/AppController.m0000000000000000^3105"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.o [1mAppController.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.dia -c /Volumes/SHARED/trough/wiiscale/AppController.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.o36"20AEAF76-EE16-4A0F-B145-4E1BC0548B79-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.o /Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.707132
+e414377146.752703
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.o
+x/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m
+d/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m198"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.o [1mFPLevelIndicator.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5c1cb5bae4b2b841^ffb1c0bae4b2b841^---0#0#1#-19%DVTDocumentLocation2@66"file://localhost/Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m0000000000000000^3123"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.o [1mFPLevelIndicator.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.dia -c /Volumes/SHARED/trough/wiiscale/FPLevelIndicator.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.o36"7AB6A03E-F2DB-4F01-ABDE-25F0D554965A-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.o /Volumes/SHARED/trough/wiiscale/PrefsController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.657852
+e414377146.705774
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.o
+x/Volumes/SHARED/trough/wiiscale/PrefsController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/PrefsController.m
+d/Volumes/SHARED/trough/wiiscale/PrefsController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Volumes/SHARED/trough/wiiscale/PrefsController.m196"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.o [1mPrefsController.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2d79a8bae4b2b841^97aeb4bae4b2b841^---0#0#1#-19%DVTDocumentLocation2@65"file://localhost/Volumes/SHARED/trough/wiiscale/PrefsController.m0000000000000000^3117"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.o [1mPrefsController.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.dia -c /Volumes/SHARED/trough/wiiscale/PrefsController.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.o36"EE03F1CA-A8E5-4872-948A-ACC10BE10765-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.o /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.625044
+e414377146.844786
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.o
+x/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/Mii.h
+o[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:198:32: [0m[0;1;35mwarning: [0m[1m
+o      'getName' is deprecated: first deprecated in OS X 10.6
+o      [-Wdeprecated-declarations][0m
+o        _isBalanceBeam = [[_wiiDevice getName] hasPrefix:@"Nintendo RVL-WBC"];
+o[0;1;32m                                      ^
+o[0mIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:9:
+oIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h:12:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:436:1: [0m[0;1;30mnote: [0m
+o      method 'getName' declared here[0m
+o- (NSString *)getName DEPRECATED_IN_MAC_OS_X_VERSION_10_6_AND_LATER;
+o[0;1;32m^
+o[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:279:21: [0m[0;1;35mwarning: [0m[1m
+o      'getAddressString' is deprecated: first deprecated in OS X 10.7
+o      [-Wdeprecated-declarations][0m
+o        return [_wiiDevice getAddressString];
+o[0;1;32m                           ^
+o[0mIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:9:
+oIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h:12:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:477:1: [0m[0;1;30mnote: [0m
+o      method 'getAddressString' declared here[0m
+o- (NSString *)getAddressString DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER;
+o[0;1;32m^
+o[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:502:76: [0m[0;1;35mwarning: [0m[1m
+o      format specifies type 'int' but the argument has type 'size_t'
+o      (aka 'unsigned long') [-Wformat][0m
+o  ...Trying to write more than 16 bytes of data (length=%i)", length);
+o[0;1;32m                                                        ~~    ^~~~~~
+o[0m[0;32m                                                        %zu
+o[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:841:10: [0m[0;1;35mwarning: [0m[1m
+o      enumeration value 'WiiExpNotAttached' not handled in switch [-Wswitch][0m
+o        switch (expType) {
+o[0;1;32m                ^
+o[0m4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m203"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.o [1mwiiRemoteFramework/WiiRemote.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9414a0bae4b2b841^3e5ad8bae4b2b841^-2400"[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:198:32: [0m[0;1;35mwarning: [0m[1m      'getName' is deprecated: first deprecated in OS X 10.6      [-Wdeprecated-declarations][0m        _isBalanceBeam = [[_wiiDevice getName] hasPrefix:@"Nintendo RVL-WBC"];[0;1;32m                                      ^[0mIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:9:In file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h:12:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:436:1: [0m[0;1;30mnote: [0m      method 'getName' declared here[0m- (NSString *)getName DEPRECATED_IN_MAC_OS_X_VERSION_10_6_AND_LATER;[0;1;32m^[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:279:21: [0m[0;1;35mwarning: [0m[1m      'getAddressString' is deprecated: first deprecated in OS X 10.7      [-Wdeprecated-declarations][0m        return [_wiiDevice getAddressString];[0;1;32m                           ^[0mIn file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:9:In file included from /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h:12:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:477:1: [0m[0;1;30mnote: [0m      method 'getAddressString' declared here[0m- (NSString *)getAddressString DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER;[0;1;32m^[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:502:76: [0m[0;1;35mwarning: [0m[1m      format specifies type 'int' but the argument has type 'size_t'      (aka 'unsigned long') [-Wformat][0m  ...Trying to write more than 16 bytes of data (length=%i)", length);[0;1;32m                                                        ~~    ^~~~~~[0m[0;32m                                                        %zu[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m:841:10: [0m[0;1;35mwarning: [0m[1m      enumeration value 'WiiExpNotAttached' not handled in switch [-Wswitch][0m        switch (expType) {[0;1;32m                ^[0m4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@54"'getName' is deprecated: first deprecated in OS X 10.6-414377146#18446744073709551615#0#1(2@30"Method 'getName' declared here-414377146#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@195"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h0000000000000000^435#0#435#0#24835#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^197#31#197#31#5403#0#12"Deprecations--2@63"'getAddressString' is deprecated: first deprecated in OS X 10.7-414377146#18446744073709551615#0#1(2@39"Method 'getAddressString' declared here-414377146#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@195"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h0000000000000000^476#0#476#0#26644#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^278#20#278#20#7381#0#12"Deprecations--2@84"Format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long')-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^501#75#501#75#13594#0#19"Format String Issue3(3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^501#75#501#81#13594#0#3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^501#69#501#71#13588#2#3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^501#69#501#71#13588#2#-2@59"Enumeration value 'WiiExpNotAttached' not handled in switch-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^840#9#840#9#24094#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@78"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m0000000000000000^3119"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.o [1mwiiRemoteFramework/WiiRemote.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.dia -c /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.o36"E0B2B71B-2C89-41F7-8A47-1CD52253A544-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.o /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.625066
+e414377146.706576
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.o
+x/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemote.h
+d/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/Mii.h
+o[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m:23:8: [0m[0;1;35mwarning: [0m[1m
+o      implicit declaration of function 'IOBluetoothLocalDeviceAvailable' is
+o      invalid in C99 [-Wimplicit-function-declaration][0m
+o                if (!IOBluetoothLocalDeviceAvailable ())
+o[0;1;32m                     ^
+o[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m:38:38: [0m[0;1;35mwarning: [0m[1m
+o      'WiiRemoteDiscovery' may not respond to 'initWithDelegate:'[0m
+o        return [[[WiiRemoteDiscovery alloc] initWithDelegate:delegate] a...
+o[0;1;32m                 ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+o[0m2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m221"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.o [1mwiiRemoteFramework/WiiRemoteDiscovery.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere415a0bae4b2b841^8bfab4bae4b2b841^-682"[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m:23:8: [0m[0;1;35mwarning: [0m[1m      implicit declaration of function 'IOBluetoothLocalDeviceAvailable' is      invalid in C99 [-Wimplicit-function-declaration][0m                if (!IOBluetoothLocalDeviceAvailable ())[0;1;32m                     ^[0m[1m/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m:38:38: [0m[0;1;35mwarning: [0m[1m      'WiiRemoteDiscovery' may not respond to 'initWithDelegate:'[0m        return [[[WiiRemoteDiscovery alloc] initWithDelegate:delegate] a...[0;1;32m                 ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^[0m2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@84"Implicit declaration of function 'IOBluetoothLocalDeviceAvailable' is invalid in C99-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@87"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m0000000000000000^22#7#22#7#552#0#14"Semantic Issue--2@59"'WiiRemoteDiscovery' may not respond to 'initWithDelegate:'-414377146#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m0000000000000000^37#37#37#37#950#0#14"Semantic Issue1(3@87"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m0000000000000000^37#10#37#36#923#25#-0#0#1#-19%DVTDocumentLocation4@87"file://localhost/Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m0000000000000000^3173"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.o [1mwiiRemoteFramework/WiiRemoteDiscovery.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.dia -c /Volumes/SHARED/trough/wiiscale/wiiRemoteFramework/WiiRemoteDiscovery.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.o36"CDB62C08-3EFB-480D-B7D8-7C82E3E77EF6-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileC build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.o /Volumes/SHARED/trough/wiiscale/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377146.625063
+e414377146.656567
+r1
+xCompileC
+xbuild/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.o
+x/Volumes/SHARED/trough/wiiscale/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Volumes/SHARED/trough/wiiscale/main.m174"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.o [1mmain.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb115a0bae4b2b841^fd2ea8bae4b2b841^---0#0#1#-19%DVTDocumentLocation2@54"file://localhost/Volumes/SHARED/trough/wiiscale/main.m0000000000000000^3051"[1mCompileC[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.o [1mmain.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.dia -c /Volumes/SHARED/trough/wiiscale/main.m -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.o36"F4B7EBC6-1951-46D2-AC3A-DD57957B0F8C-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCompileXIB /Volumes/SHARED/trough/wiiscale/English.lproj/MainMenu.xib
+s414377145.739870
+e414377145.794480
+r1
+xCompileXIB
+x/Volumes/SHARED/trough/wiiscale/English.lproj/MainMenu.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compiling /Volumes/SHARED/trough/wiiscale/English.lproj/MainMenu.xib53"[1mCompileXIB[0m [1mEnglish.lproj/MainMenu.xib[0m957fbdb9e4b2b841^5e63cbb9e4b2b841^---0#0#1#-19%DVTDocumentLocation2@74"file://localhost/Volumes/SHARED/trough/wiiscale/English.lproj/MainMenu.xib0000000000000000^518"[1mCompileXIB[0m [1mEnglish.lproj/MainMenu.xib[0m    cd /Volumes/SHARED/trough/wiiscale    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.9 --output-format human-readable-text --compile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/English.lproj/MainMenu.nib /Volumes/SHARED/trough/wiiscale/English.lproj/MainMenu.xib36"41F1CED8-C0DA-4BEC-B0D1-5D3FB2217A0C-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCopyPlistFile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/TextStrings.plist TextStrings.plist
+s414377145.748224
+e414377145.757951
+r1
+xCopyPlistFile
+x/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/TextStrings.plist
+xTextStrings.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection22"Copy TextStrings.plist103"[1mCopyPlistFile[0m build/Release/WiiScale.app/Contents/Resources/TextStrings.plist TextStrings.plist0f98bfb9e4b2b841^5709c2b9e4b2b841^---0#0#1#-19%DVTDocumentLocation2@65"file://localhost/Volumes/SHARED/trough/wiiscale/TextStrings.plist0000000000000000^273"[1mCopyPlistFile[0m build/Release/WiiScale.app/Contents/Resources/TextStrings.plist TextStrings.plist    cd /Volumes/SHARED/trough/wiiscale    builtin-copyPlist --outdir /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources -- TextStrings.plist36"B3548FDC-308A-450E-AFF3-B6AC8588D2AF-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCopyStringsFile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s414377145.739876
+e414377145.758431
+r1
+xCopyStringsFile
+x/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings133"[1mCopyStringsFile[0m build/Release/WiiScale.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings9a7abdb9e4b2b841^fe28c2b9e4b2b841^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Volumes/SHARED/trough/wiiscale/English.lproj/InfoPlist.strings0000000000000000^391"[1mCopyStringsFile[0m build/Release/WiiScale.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Volumes/SHARED/trough/wiiscale    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"27580822-BCB3-4E1F-9657-F8CC7C7C28EE-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCpResource LICENSE build/Release/WiiScale.app/Contents/Resources/LICENSE
+s414377145.740106
+e414377145.753065
+r1
+xCpResource
+xLICENSE
+xbuild/Release/WiiScale.app/Contents/Resources/LICENSE
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Release/WiiScale.app/Contents/Resources/LICENSE80"[1mCpResource[0m LICENSE build/Release/WiiScale.app/Contents/Resources/LICENSE8c81bdb9e4b2b841^64c9c0b9e4b2b841^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/LICENSE00389865dcffdf42^476"[1mCpResource[0m LICENSE build/Release/WiiScale.app/Contents/Resources/LICENSE    cd /Volumes/SHARED/trough/wiiscale    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/trough/wiiscale/LICENSE /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources36"EC9779F1-72F6-4A01-8FE8-E3BFB005504F-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCpResource WiiScale.icns build/Release/WiiScale.app/Contents/Resources/WiiScale.icns
+s414377145.739875
+e414377145.746977
+r1
+xCpResource
+xWiiScale.icns
+xbuild/Release/WiiScale.app/Contents/Resources/WiiScale.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release/WiiScale.app/Contents/Resources/WiiScale.icns92"[1mCpResource[0m WiiScale.icns build/Release/WiiScale.app/Contents/Resources/WiiScale.icnsaf79bdb9e4b2b841^693abfb9e4b2b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources/WiiScale.icns00389865dcffdf42^494"[1mCpResource[0m WiiScale.icns build/Release/WiiScale.app/Contents/Resources/WiiScale.icns    cd /Volumes/SHARED/trough/wiiscale    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/trough/wiiscale/WiiScale.icns /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Resources36"4C388D48-DAFC-45C6-9FAC-F2BFA675D0CF-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CCreateUniversalBinary /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale normal x86_64\ i386
+s414377147.003641
+e414377147.013456
+r1
+xCreateUniversalBinary
+x/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale
+xnormal
+xx86_64 i386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Create universal binary /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale108"[1mCreateUniversalBinary[0m [1mbuild/Release/WiiScale.app/Contents/MacOS/WiiScale[0m normal x86_64\ i386dffe00bbe4b2b841^2e7203bbe4b2b841^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale00389865dcffdf42^468"[1mCreateUniversalBinary[0m [1mbuild/Release/WiiScale.app/Contents/MacOS/WiiScale[0m normal x86_64\ i386    cd /Volumes/SHARED/trough/wiiscale    lipo -create /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale -output /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale36"BFFAC8D7-4C1D-41B7-90A6-9F4D93B93715-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CGenerateDSYMFile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app.dSYM /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale
+s414377147.021596
+e414377147.053668
+r1
+xGenerateDSYMFile
+x/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app.dSYM
+x/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Generate /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app.dSYM115"[1mGenerateDSYMFile[0m [1mbuild/Release/WiiScale.app.dSYM[0m build/Release/WiiScale.app/Contents/MacOS/WiiScalec99205bbe4b2b841^62bd0dbbe4b2b841^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app.dSYM00389865dcffdf42^405"[1mGenerateDSYMFile[0m [1mbuild/Release/WiiScale.app.dSYM[0m build/Release/WiiScale.app/Contents/MacOS/WiiScale    cd /Volumes/SHARED/trough/wiiscale    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/MacOS/WiiScale -o /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app.dSYM36"E849447D-85B4-4C54-9A66-496B4D67E589-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CLd /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale normal i386
+s414377146.936714
+e414377146.995805
+r1
+xLd
+x/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale
+xnormal
+xi386
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale.LinkFileList
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/main.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemote.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiRemoteDiscovery.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/AppController.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/PrefsController.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/FPLevelIndicator.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/IOBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Versions/A/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+old: warning: directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release'
+old: warning: directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug'
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale95"[1mLd[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale normal i386cbd9efbae4b2b841^0feefebae4b2b841^-274"ld: warning: directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release'ld: warning: directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug'2(21%IDEActivityLogMessage2@124"Directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release'-414377146#0#138#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@122"Directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug'-414377146#138#136#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#1#--1187"[1mLd[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale normal i386    cd /Volumes/SHARED/trough/wiiscale    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -filelist /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale.LinkFileList -mmacosx-version-min=10.9 -fobjc-link-runtime -framework Cocoa -framework IOBluetooth -Xlinker -dependency_info -Xlinker /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale_dependency_info.dat -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/i386/WiiScale36"91DA4239-BA0E-4D2C-BC3B-DCACABBA1229-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CLd /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale normal x86_64
+s414377146.936710
+e414377146.988721
+r1
+xLd
+x/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale
+xnormal
+xx86_64
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale.LinkFileList
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/main.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemote.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiRemoteDiscovery.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/AppController.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/PrefsController.o
+d/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/FPLevelIndicator.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/IOBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Versions/A/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+old: warning: directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release'
+old: warning: directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug'
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale99"[1mLd[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale normal x86_6402d9efbae4b2b841^7a1dfdbae4b2b841^-274"ld: warning: directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release'ld: warning: directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug'2(21%IDEActivityLogMessage2@124"Directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release'-414377146#0#138#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@122"Directory not found for option '-F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug'-414377146#138#136#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#1#--1199"[1mLd[0m build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale normal x86_64    cd /Volumes/SHARED/trough/wiiscale    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug -filelist /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale.LinkFileList -mmacosx-version-min=10.9 -fobjc-link-runtime -framework Cocoa -framework IOBluetooth -Xlinker -dependency_info -Xlinker /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale_dependency_info.dat -o /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/Objects-normal/x86_64/WiiScale36"7A0CC962-DB36-4CAB-8A30-67F23AF67784-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CProcessInfoPlistFile /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Info.plist /Volumes/SHARED/trough/wiiscale/Info.plist
+s414377145.726925
+e414377145.731791
+r1
+xProcessInfoPlistFile
+x/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Info.plist
+x/Volumes/SHARED/trough/wiiscale/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process /Volumes/SHARED/trough/wiiscale/Info.plist94"[1mProcessInfoPlistFile[0m build/Release/WiiScale.app/Contents/Info.plist [1mInfo.plist[0m7c2bbab9e4b2b841^0c57bbb9e4b2b841^---0#0#1#-19%DVTDocumentLocation2@58"file://localhost/Volumes/SHARED/trough/wiiscale/Info.plist0000000000000000^414"[1mProcessInfoPlistFile[0m build/Release/WiiScale.app/Contents/Info.plist [1mInfo.plist[0m    cd /Volumes/SHARED/trough/wiiscale    builtin-infoPlistUtility /Volumes/SHARED/trough/wiiscale/Info.plist -genpkginfo /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app/Contents/Info.plist36"A0BED01C-7E13-4E8A-9358-41201F14E9DF-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.pch WiiScale_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377145.804081
+e414377146.558021
+r1
+xProcessPCH
+x/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.pch
+xWiiScale_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/WiiScale_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile WiiScale_Prefix.pch295"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.pch WiiScale_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler03eacdb9e4b2b841^f1d98ebae4b2b841^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Volumes/SHARED/trough/wiiscale/WiiScale_Prefix.pch0000000000000000^3242"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.pch WiiScale_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug --serialize-diagnostics /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.d -c /Volumes/SHARED/trough/wiiscale/WiiScale_Prefix.pch -o /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-afbiikojfiisibfbfdqkvlnpwmwu/WiiScale_Prefix.pch.pch36"4C32C8BE-59F4-46B6-9285-BCE5F043719C-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.pch WiiScale_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414377145.805341
+e414377146.616775
+r1
+xProcessPCH
+x/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.pch
+xWiiScale_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/wiiscale/WiiScale_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile WiiScale_Prefix.pch293"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.pch WiiScale_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3b3aceb9e4b2b841^b4e49dbae4b2b841^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Volumes/SHARED/trough/wiiscale/WiiScale_Prefix.pch0000000000000000^3236"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.pch WiiScale_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/wiiscale    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-generated-files.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-own-target-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-all-target-headers.hmap -iquote /Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/WiiScale-project-headers.hmap -I/Volumes/SHARED/trough/wiiscale/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources/i386 -I/Volumes/SHARED/trough/wiiscale/build/WiiScale.build/Release/WiiScale.build/DerivedSources -F/Volumes/SHARED/trough/wiiscale/build/Release -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Release -F/Volumes/SHARED/trough/wiiscale -F/Volumes/SHARED/trough/wiiscale/../gdata-objectivec-client-read-only/Source/build/Debug --serialize-diagnostics /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.d -c /Volumes/SHARED/trough/wiiscale/WiiScale_Prefix.pch -o /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/WiiScale_Prefix-askuzclwpmnykpcmhcagmfbayjdr/WiiScale_Prefix.pch.pch36"9CA9B2CB-A586-4A98-829E-0BCADD639ACC-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
+CTouch /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app
+s414377147.061871
+e414377147.066310
+r1
+xTouch
+x/Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Touch /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app40"[1mTouch[0m build/Release/WiiScale.app0de20fbbe4b2b841^e4f910bbe4b2b841^---0#0#1#--161"[1mTouch[0m build/Release/WiiScale.app    cd /Volumes/SHARED/trough/wiiscale    /usr/bin/touch -c /Volumes/SHARED/trough/wiiscale/build/Release/WiiScale.app36"9EFEDF9E-8BF1-4314-BB58-96B5846DA3DF-
+bFC81AA82-0A4C-4B81-8300-75E89AA8B036
+
